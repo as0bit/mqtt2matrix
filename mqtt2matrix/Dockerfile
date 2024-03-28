@@ -15,7 +15,7 @@ ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "mqtt2matrix.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
-ENV MQTTSERVER="mqtt.c3re.de"
+ENV MQTTSERVER="mqtt://localhost"
 ENV MQTTPORT="1883"
 ENV MQTTUSER="mqtt"
 ENV MQTTPASSWORD="mqtt"

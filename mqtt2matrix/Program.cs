@@ -11,10 +11,10 @@ string mqttBaseTopic = Environment.GetEnvironmentVariable("MQTTBASETOPIC") ?? "b
 
 var mqttTopicRoomTopic = mqttBaseTopic + "roomtopic";
 var mqttTopicRoomName = mqttBaseTopic + "roomname";
-var mqttTopicRoomAvatar = mqttBaseTopic + "oomavatar";
+var mqttTopicRoomAvatar = mqttBaseTopic + "roomavatar";
 var mqttTopicRoomMessage = mqttBaseTopic + "roommessage";
 
-var mqttServer = Environment.GetEnvironmentVariable("MQTTSERVER") ?? "mqtt.c3re.de";
+var mqttServer = Environment.GetEnvironmentVariable("MQTTSERVER") ?? "localhost";
 int? mqttPort = int.Parse(Environment.GetEnvironmentVariable("MQTTPORT") ?? "1883"); 
 var mqttUser = Environment.GetEnvironmentVariable("MQTTUSER") ?? "";
 var mqttPassword = Environment.GetEnvironmentVariable("MQTTPASSWORD") ?? "";
