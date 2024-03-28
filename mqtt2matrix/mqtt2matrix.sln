@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mqtt2matrix", "mqtt2matrix.csproj", "{1BC0FC20-F626-4987-8F5F-7AC0A8E73605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BC0FC20-F626-4987-8F5F-7AC0A8E73605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC0FC20-F626-4987-8F5F-7AC0A8E73605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC0FC20-F626-4987-8F5F-7AC0A8E73605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC0FC20-F626-4987-8F5F-7AC0A8E73605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
