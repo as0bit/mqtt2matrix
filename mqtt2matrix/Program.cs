@@ -55,7 +55,7 @@ MqttClientOptions options;
         options = new MqttClientOptionsBuilder()
             .WithClientId("mqtt2matrixbot")
             .WithTcpServer(mqttServer, mqttPort)
-            .WithCredentials("username", "password")
+            .WithCredentials(mqttUser, mqttPassword)
             //.WithTls()
             .WithCleanSession()
             .Build();
