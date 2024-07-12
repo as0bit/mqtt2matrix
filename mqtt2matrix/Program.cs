@@ -186,11 +186,10 @@ MqttClientOptions options;
 
 
     }
-    
-  
- 
-   
-    
 
-    Console.ReadLine();
+
+    while (true)
+    {
+        Thread.Sleep(20);
+    }
 
